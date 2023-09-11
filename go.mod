@@ -2,6 +2,8 @@ module github.com/edgexfoundry/device-sdk-go/v3
 
 go 1.20
 
+replace github.com/edgexfoundry/go-mod-bootstrap/v3 => github.com/lenny-intel/go-mod-bootstrap/v3 v3.0.0-20230911154337-aa55a395b6ca
+
 require (
 	github.com/OneOfOne/xxhash v1.2.8
 	github.com/edgexfoundry/go-mod-bootstrap/v3 v3.1.0-dev.29
